@@ -1,0 +1,278 @@
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+html{
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #fff;
+  color: #080808;
+  font-family: 'Poppins', sans-serif;
+}
+
+.logo{
+  position: relative;
+  top: 19px;
+  width: 40px;
+  height: 100%;
+}
+
+.left-text {
+  position: relative;
+  margin: 10px;
+  top: 7px;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+.left {
+  display: flex;
+  position: relative;
+  bottom: 7px;
+  right:45px;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.contact .contact-content .card i{
+  font-size: 50px;
+  color: royalblue;
+  transition: color 0.3s ease;
+}
+
+.port-box{
+  color:black;
+  background-color: white;
+  position: relative;
+  bottom:3px;
+  padding: 9px;
+  border-radius: 6px;
+  display:flexbox;
+  align-items: center; 
+  justify-content: center;
+  transform: scale(1.05);
+  transition: all 0.3s ease;
+}
+
+.port-box:hover {
+  background-color: rgb(142, 170, 255);
+  color: white;
+}
+
+.port-log{
+  position:relative;
+  top:4px;
+  width: 20px;
+  height: 20px;
+  margin-inline: 2px;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 70px;
+  background-color: royalblue;
+  color: white;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 0 23px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a:hover {
+  color: rgb(244, 192, 129);
+  font-size: 1.0rem;
+}
+
+
+.firstsection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 70px 0;
+}
+
+.firstsection>div {
+  width: 30%;
+}
+
+.leftsection {
+  font-size: 3rem;
+}
+
+.rightsection img {
+  width: 100%;
+}
+
+.blue {
+  color: rgb(79, 0, 175);
+}
+
+#element {
+  color: rgb(79, 0, 175);
+}
+
+
+.about .about-content,
+.contact .contact-content,
+.skills .skills-content,
+.contact .contact-content{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.about{
+  background-color: rgb(245, 245, 245);
+}
+
+.about .about-content .left img{
+  height: 410px;
+  width: 200px;
+  object-fit: cover;
+  margin-bottom: 80px;
+  border-radius: 6px;
+}
+.title{
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-align: center;
+  text-decoration: underline royalblue 6px;
+}
+.about .about-content .right{
+  width: 65%;
+}
+.about .about-content .right .text{
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.about .about-content .right p{
+  text-align: justify;
+}
+.about .about-content .right a{
+  display: inline-block;
+  background: royalblue;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 10px 30px;
+  margin-top: 40px;
+  margin-left: 300px;
+  border-radius: 6px;
+  border: 2px solid royalblue;
+  text-decoration: none;
+}
+.about .about-content .right a:hover{
+  color: royalblue;
+  background: none;
+}
+
+.contact{
+  color:#fff;
+  background: #111;
+  padding-top: 80px;
+  padding-bottom: 130px;
+}
+
+.box-image{
+  width: 100px;
+  height: 100%;
+}
+
+.box-image-link{
+  width: 78px;
+  height: 100%;
+  margin-top: 20px;
+}
+
+.box-image-insta{
+  width: 78px;
+  height: 100%;
+  margin-top: 20px;
+}
+
+.card{
+  width:200px;
+  height: 200px;
+}
+.contact .contact-content .card{
+  width: 400px;
+  background: #222;
+  text-align: center;
+  border-radius: 6px;
+  padding: 50px 25px;
+  margin-inline: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.contact .contact-content .card:hover{
+  background: royalblue;
+}
+.contact .contact-content .card .box{
+  transition: all 0.3s ease;
+}
+.contact .contact-content .card:hover .box{
+  transform: scale(1.05);
+}
+.contact .contact-content .card i{
+  font-size: 50px;
+  color: royalblue;
+  transition: color 0.3s ease;
+}
+.contact .contact-content .card:hover i{
+  color: #fff;
+}
+.contact .contact-content .card .text{
+  font-size: 25px;
+  font-weight: 500;
+  margin: 10px 0 7px 0;
+}
+
+.footer{
+  display: flex;
+  background-color: #f1f1f1;
+  height: 60px;
+
+  justify-content: space-evenly;
+}
+
+.footer-first{
+  padding: 20px 50px;
+  text-align: center;
+  color: rgb(58, 53, 47);
+}
+.footer ul li{
+  list-style: none;
+
+}
+.footer-rights{
+  text-align: center;
+}
+
+a:link{
+  color:royalblue
+}
+
+a:visited{
+  color:rgb(144, 172, 255)
+}
+
+a:hover{
+  color:rgb(155, 179, 252)
+}
